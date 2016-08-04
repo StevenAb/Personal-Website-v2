@@ -10,6 +10,32 @@ body {
 	margin-bottom: 750px;
 }
 
+ul.navbar {
+	margin-top: 5270px;
+	margin-right: -8px;
+	background-color: #F7F7F7;
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	-webkit-transform: rotate(90deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: rotate(90deg);
+    -moz-transform-origin: right top;
+    -ms-transform: rotate(90deg);
+    -ms-transform-origin: right top;
+    -o-transform: rotate(90deg);
+    -o-transform-origin: right top;
+    transform: rotate(90deg);
+    transform-origin: right top;
+}
+
+li.navbar {
+	list-style-type: none;
+	font-size: 30px;
+	text-align: center;
+	float: right;
+}
+
 #title {
 	color: #F7F7F7;
 	text-align: center;
