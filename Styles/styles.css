@@ -1,6 +1,8 @@
 body {
-	background-image: url(http://cdn0.dailydot.com/cache/85/7e/857ea649bb656eb429631a20b549c347.jpg);
-	background-repeat: repeat-y;
+	display: block;
+	width: 100%;
+	background-image: url("../Images/fvc.png");
+	background-repeat: repeat;
 }
 
 .heading {
@@ -11,7 +13,7 @@ body {
 }
 
 ul.navbar {
-	margin-top: 5270px;
+	margin-top: 800px;
 	margin-right: -8px;
 	background-color: #F7F7F7;
 	float: right;
@@ -37,11 +39,23 @@ li.navbar {
 }
 
 #title {
-	color: #F7F7F7;
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
 	text-align: center;
-	font-size: 256px;
-	margin-top: 325px;
-	margin-bottom: 800px;
+	font-size: 128px;
+	color: #000000;
+	margin-top: 800px;
+	margin-bottom: 200px;
+	margin-left: 170px;
+	margin-right: 560px;
+	background-color: #F7F7F7;
+}
+
+#sc {
+	margin-top: -120px;
+	margin-bottom: -120px;
 }
 
 #footer {
